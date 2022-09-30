@@ -2,15 +2,18 @@
 
 Criaremos um Worker que vai monitorar atravéz do ping se o site esta acessível naquele momento gerando log de interface.
 
-> Nuget
+## Nuget
 
 Baixar o pacote Newtonsoft.Json
 
 ![image](https://user-images.githubusercontent.com/99044436/193315189-bbfda63d-1875-4be6-90fb-8da2f5b19582.png)
 
-> Criar as classes
 
-###### Criar "ServiceConfigurations"
+## Código
+
+###### Criar as classes
+
++ Criar "ServiceConfigurations"
 
 ```C#
 
@@ -107,6 +110,11 @@ protected override async Task ExecuteAsync(CancellationToken stoppingToken)
 }
 
 ```
+
+## Resultado do monitoramento de site
+
+![image](https://user-images.githubusercontent.com/99044436/193327745-11c418ef-a711-4079-af36-548dc3ddd38c.png)
+
 
 
 
