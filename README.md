@@ -1,6 +1,6 @@
 # Monitorador de sites (Worker)
 
-Criaremos um Worker que vai monitorar atravéz do ping se o site esta acessível naquele momento gerando log de interface.
+Worker que vai monitorar atravéz do ping se o site esta acessível naquele momento gerando log de interface.
 
 ## Nuget
 
